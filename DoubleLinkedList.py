@@ -293,6 +293,9 @@ class DoubleLinkedList:
                 p2 = p2.link
             pM = pM.link
 
+
+
+
         #If second list has finished and element left in first class
         while p1 is not None:
             pM.link = Node(p1.info)
